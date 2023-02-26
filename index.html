@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<!--    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no,width=device-width">
+<!--    <link href="//fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&amp;subset=latin" rel="preload" as="font" />-->
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <title>Удивительные идеи для путешествий</title>
+
+    <style>
+        * {
+            /*border: 1px solid black;*/
+            margin-block: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .top{
+            background-image: url("//images01.nicepage.io/04/c9/04c92f4b1888be1f59c0cf8549526806.jpeg");
+            overflow: visible;
+            object-fit: cover;
+            display: block;
+            vertical-align: middle;
+            background-size: cover;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            border: 1px solid transparent;
+        }
+
+        #header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            /*flex-basis: 60px; height: 160px;*/
+            justify-content: space-around;
+            margin-top: 1%;
+        }
+
+        #text-logo{
+            font-weight: 400;
+            color: #ffffff;
+            font-family: Roboto,sans-serif;
+            font-size: 1.875rem;
+            line-height: 1.2;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        #menu {
+            /*width: 50%;*/
+            font-family: 'Open Sans',sans-serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            white-space: nowrap;
+            line-height: 1;
+            vertical-align: middle;
+
+        }
+
+        .nav-item {
+            /*display: flex;*/
+            /*justify-content: space-around;*/
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+            font-size: 12px;
+            font-style: normal;
+            /*height: 32px;*/
+            /*letter-spacing: 2px;*/
+            line-height: 12px;
+            /*padding-bottom: 10px;*/
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+
+        #section-top {
+            margin-left: 10%;
+            margin-right: 30%;
+            margin-top: 12%;
+            margin-bottom: 12%;
+        }
+
+        #section-top-text{
+            color: #ffffff !important;
+            position: relative;
+            /*box-sizing: border-box;*/
+            pointer-events: auto;
+        }
+        #section-top-text-h1{
+            /*font-size: 5.625rem;*/
+            font-size: 90px;
+            /*margin: 200px 112px 0 0;*/
+            font-family: Roboto,sans-serif;
+            font-weight: 400;
+            line-height: 1.1;
+            word-wrap: break-word;
+            margin-block-end: 3%;
+        }
+
+        #section-top-text-h2{
+            display: block;
+            font-family: "Open Sans", sans-serif;
+            font-size: 20px;
+            height: 96px;
+            line-height: 32px;
+            overflow-wrap: break-word;
+            /*margin-block-start: 25px;*/
+            /*margin-inline-end: 742px;*/
+            /*margin-right: 742px;*/
+            /*margin-top: 25px;*/
+        }
+
+        #section-top-btn{
+        }
+        .btn1 {
+            position: relative;
+            display: table;
+            cursor: pointer;
+            text-decoration: none;
+            border: 0 none transparent;
+            outline-width: 0;
+            background-color: transparent;
+            white-space: nowrap;
+            vertical-align: middle;
+            text-align: center;
+            border-radius: 10px !important;
+            background-image: linear-gradient(135deg, #478ac9, #24d9ea);
+            margin: 40px auto 60px 0;
+            padding: 14px 32px 15px;
+            pointer-events: initial;
+            color: #ffffff;
+            font-family: "Open Sans", sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: normal;
+            line-height: 25.6px;
+        }
+
+        #section-2{
+            background-color: rgb(233, 242, 250);
+            position: relative;
+        }
+
+        #section-2-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 5%;
+        }
+
+        #section-2-h2{
+            box-sizing: border-box;
+            color: rgb(71, 138, 201);
+            display: block;
+            font-family: Roboto, sans-serif;
+            font-size: 36px;
+            font-weight: 400;
+            overflow-wrap: break-word;
+            position: relative;
+            text-align: center;
+        }
+
+        #section-2-p{
+            box-sizing: border-box;
+            color: rgb(76, 115, 151);
+            display: block;
+            font-family: "Open Sans", sans-serif;
+            font-size: 18px;
+            font-style: italic;
+            overflow-wrap: break-word;
+            pointer-events: auto;
+            position: relative;
+            text-align: center;
+            margin-block-end: 15px;
+            margin-block-start: 20px;
+            margin-bottom: 15px;
+        }
+
+        #section-2-boxes{
+            display: flex;
+            flex-direction: row;
+            /*flex-wrap: wrap;*/
+            /*justify-content: center;*/
+        }
+
+        .section-2-box-layout{
+            border: 15px solid transparent;
+        }
+
+        .section-2-box{
+            font-family: "Open Sans", sans-serif;
+            background-color: #ffffff;
+        }
+
+        .section-2-icon{
+            fill: rgb(192, 192, 192);
+        }
+
+        .box-section2 {
+            /*display: flex;*/
+            /*flex-direction: row;*/
+            /*position: relative;*/
+            /*box-sizing: border-box;*/
+            /*!*padding: 10px;*!*/
+            /*!*margin: 10px;*!*/
+        }
+
+        .section-2-image {
+            /*height: 298px;*/
+            /*width: 360px;*/
+            /*background-position-x: 50%;*/
+            /*background-position-y: 50%;*/
+            /*background-size: cover;*/
+            /*display: block;*/
+            /*pointer-events: auto;*/
+            /*position: relative;*/
+            /*text-align: left;*/
+            /*vertical-align: middle;*/
+        }
+    </style>
+
+    <style>#section-2 {
+        background-image: none;
+    }
+        #section-2 .section-2-box-layout {
+            min-height: 401px;
+            background-image: none;
+        }
+        #section-2 #section-2-image-1 {
+            height: 298px;
+            margin: 0 auto 0 0;
+        }
+        #section-2 #section-2-text-1 {
+            font-size: 1.25rem;
+            font-style: italic;
+            margin: 22px 20px 0 60px;
+        }
+        #section-2 .section-2-icon {
+            height: 26px;
+            width: 26px;
+            margin: -29px auto 23px 20px;
+        }
+        #section-2 .section-2-box-layout {
+            background-image: none;
+            min-height: 401px;
+        }
+        #section-2 #section-2-image-2 {
+            height: 298px;
+            margin: 0 auto 0 0;
+        }
+        #section-2 #section-2-text-2 {
+            font-size: 1.25rem;
+            font-style: italic;
+            margin: 22px 20px 0 60px;
+        }
+        #section-2 .section-2-icon {
+            height: 26px;
+            width: 26px;
+            margin: -29px auto 23px 20px;
+        }
+        #section-2 .section-2-box-layout {
+            background-image: none;
+            min-height: 401px;
+        }
+        #section-2 #section-2-image-3 {
+            height: 298px;
+            margin: 0 auto 0 0;
+        }
+        #section-2 #section-2-text-3 {
+            font-size: 1.25rem;
+            font-style: italic;
+            margin: 22px 20px 0 60px;
+        }
+        #section-2 .section-2-icon {
+            height: 26px;
+            width: 26px;
+            margin: -29px auto 23px 20px;
+        }
+        #section-2 .section-2-box-layout {
+            background-image: none;
+            min-height: 401px;
+        }
+        #section-2 #section-2-image-4 {
+            height: 298px;
+            margin: 0 auto 0 0;
+        }
+        #section-2 #section-2-text-4 {
+            font-size: 1.25rem;
+            font-style: italic;
+            margin: 22px 20px 0 60px;
+        }
+        #section-2 .section-2-icon {
+            height: 26px;
+            width: 26px;
+            margin: -29px auto 23px 20px;
+        }
+        #section-2 .section-2-box-layout {
+            background-image: none;
+            min-height: 401px;
+        }
+        #section-2 #section-2-image-5 {
+            height: 298px;
+            margin: 0 auto 0 0;
+        }
+        #section-2 #section-2-text-5 {
+            font-size: 1.25rem;
+            font-style: italic;
+            margin: 22px 20px 0 60px;
+        }
+        #section-2 .section-2-icon {
+            height: 26px;
+            width: 26px;
+            margin: -29px auto 23px 20px;
+        }
+        #section-2 .section-2-box-layout {
+            background-image: none;
+            min-height: 401px;
+        }
+        #section-2 #section-2-image-6 {
+            height: 298px;
+            margin: 0 auto 0 0;
+        }
+        #section-2 #section-2-text-6 {
+            font-size: 1.25rem;
+            font-style: italic;
+            margin: 22px 20px 0 60px;
+        }
+        #section-2 .section-2-icon {
+            height: 26px;
+            width: 26px;
+            margin: -29px auto 23px 20px;
+        }
+        @media (max-width: 1199px) {
+            #section-2 .u-layout-wrap-1 {
+                margin-right: initial;
+                margin-left: initial;
+            }
+            #section-2 #section-2-image-1 {
+                margin-right: initial;
+                margin-left: initial;
+            }
+            #section-2 #section-2-text-1 {
+                margin-right: 16px;
+                margin-left: 49px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 16px;
+            }
+            #section-2 #section-2-image-2 {
+                margin-right: initial;
+                margin-left: initial;
+            }
+            #section-2 #section-2-text-2 {
+                margin-right: 16px;
+                margin-left: 49px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 16px;
+            }
+            #section-2 #section-2-image-3 {
+                margin-right: initial;
+                margin-left: initial;
+            }
+            #section-2 #section-2-text-3 {
+                margin-right: 16px;
+                margin-left: 49px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 16px;
+            }
+            #section-2 #section-2-image-4 {
+                margin-right: initial;
+                margin-left: initial;
+            }
+            #section-2 #section-2-text-4 {
+                margin-right: 16px;
+                margin-left: 49px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 16px;
+            }
+            #section-2 #section-2-image-5 {
+                margin-right: initial;
+                margin-left: initial;
+            }
+            #section-2 #section-2-text-5 {
+                margin-right: 16px;
+                margin-left: 49px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 16px;
+            }
+            #section-2 #section-2-image-6 {
+                margin-right: initial;
+                margin-left: initial;
+            }
+            #section-2 #section-2-text-6 {
+                margin-right: 16px;
+                margin-left: 49px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 16px;
+            }
+        }
+        @media (max-width: 991px) {
+            #section-2 #section-2-text-1 {
+                margin-right: 13px;
+                margin-left: 52px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 13px;
+            }
+            #section-2 #section-2-text-2 {
+                margin-right: 13px;
+                margin-left: 52px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 13px;
+            }
+            #section-2 #section-2-text-3 {
+                margin-right: 13px;
+                margin-left: 52px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 13px;
+            }
+            #section-2 #section-2-text-4 {
+                margin-right: 13px;
+                margin-left: 52px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 13px;
+            }
+            #section-2 #section-2-text-5 {
+                margin-right: 13px;
+                margin-left: 52px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 13px;
+            }
+            #section-2 #section-2-text-6 {
+                margin-right: 13px;
+                margin-left: 52px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 13px;
+            }
+        }
+        @media (max-width: 767px) {
+            #section-2 #section-2-text-1 {
+                margin-right: 9px;
+                margin-left: 44px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 9px;
+            }
+            #section-2 #section-2-text-2 {
+                margin-right: 9px;
+                margin-left: 44px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 9px;
+            }
+            #section-2 #section-2-text-3 {
+                margin-right: 9px;
+                margin-left: 44px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 9px;
+            }
+            #section-2 #section-2-text-4 {
+                margin-right: 9px;
+                margin-left: 44px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 9px;
+            }
+            #section-2 #section-2-text-5 {
+                margin-right: 9px;
+                margin-left: 44px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 9px;
+            }
+            #section-2 #section-2-text-6 {
+                margin-right: 9px;
+                margin-left: 35px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 9px;
+            }
+        }
+        @media (max-width: 575px) {
+            #section-2 #section-2-text-1 {
+                margin-right: 12px;
+                margin-left: 38px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 6px;
+            }
+            #section-2 #section-2-text-2 {
+                margin-right: 6px;
+                margin-left: 38px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 6px;
+            }
+            #section-2 #section-2-text-3 {
+                margin-right: 6px;
+                margin-left: 38px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 6px;
+            }
+            #section-2 #section-2-text-4 {
+                margin-right: 6px;
+                margin-left: 38px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 6px;
+            }
+            #section-2 #section-2-text-5 {
+                margin-right: 6px;
+                margin-left: 38px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 6px;
+            }
+            #section-2 #section-2-text-6 {
+                margin-right: 6px;
+                margin-left: 38px;
+            }
+            #section-2 .section-2-icon {
+                margin-left: 6px;
+            }
+        }
+    </style>
+</head>
+
+<body class="body overlap">
+
+<div class="top">
+    <header id="header">
+        <div id="text-logo">
+            <p href="index.html"> Travel.co </p>
+        </div>
+        <nav id="menu">
+            <div class="nav-item"><p class="butn header" href="index.html">Home</p></div>
+            <div class="nav-item"><p class="butn header" href="index.html">Blog</p></div>
+            <div class="nav-item"><p class="butn header" href="index.html">Contacts</p></div>
+            <div class="nav-item"><p class="butn header" href="index.html">Page 1</p></div>
+            <div class="nav-item"><p class="butn header" href="index.html">Page 3</p></div>
+        </nav>
+    </header>
+
+    <div id="section-top" class="section">
+        <div id="section-top-text">
+            <h1 id="section-top-text-h1">Travel</h1>
+            <pre id="section-top-text-h2">Here are my favorite travel and adventure
+quotes, paired with images from my
+journeys around the world.</pre>
+        </div>
+        <div id="section-top-btn">
+            <a href="index.html" class="btn1">read more</a>
+        </div>
+    </div>
+</div>
+
+<!--<div id="header">
+    <div src="logo-text" alt="text-boc" width="100" height="100">
+        <h1>Travel.co</h1>
+    </div>
+    <div id="menu">
+        <h2>HOME</h2>
+        <h2>BLOG</h2>
+        <h2>CONTACTS</h2>
+        <h2>PAGE 1</h2>
+        <h2>PAGE 2</h2>
+    </div>
+</div>-->
+
+<!--<div id="section1" class="section">
+    <div id="section1-text" class="text-box">
+        <h1>Header</h1>
+        <p>Text</p>
+        <div id="button" class="button">
+
+        </div>
+    </div>
+    <img src="image/VRWoman.jpg" alt="photo" width="60%" height="500">
+</div>-->
+
+
+
+
+<div id="section-2">
+
+    <div id="section-2-text">
+        <h2 id="section-2-h2">Start Your Jorney</h2>
+        <p id="section-2-p">The most searched countries in March</p>
+    </div>
+
+    <div id="section-2-boxes">
+        <div class="section-2-box-layout">
+            <div id="section-2-box-1" class="section-2-box">
+                <img id="section-2-image-1" class="section-2-image" src="//images01.nicepage.com/28/58/2858f3748a025304669419b5dbd89dd3.jpeg">
+                <p id="section-2-text-1">Santorini, Greece</p>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-6d65" x="0px" y="0px" viewBox="0 0 54.757 54.757" style="enable-background:new 0 0 54.757 54.757;" xml:space="preserve" class="section-2-icon"><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952  L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7  S31.416,26,27.557,26z"></path><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                <path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952  L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7  S31.416,26,27.557,26z"></path>
+            </div>
+        </div>
+        <div class="section-2-box-layout">
+            <div id="section-2-box-2" class="section-2-box">
+                <img id="section-2-image-2" class="section-2-image" src="https://images01.nicepage.com/9e/af/9eaf6a4d06c28cd9596d0b792f4780b5.jpeg">
+                <p id="section-2-text-2">Vernazza, Italy</p>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-6d65" x="0px" y="0px" viewBox="0 0 54.757 54.757" style="enable-background:new 0 0 54.757 54.757;" xml:space="preserve" class="section-2-icon"><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952  L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7  S31.416,26,27.557,26z"></path><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                <path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952  L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7  S31.416,26,27.557,26z"></path>
+            </div>
+        </div>
+        <div class="section-2-box-layout">
+            <div id="section-2-box-3" class="section-2-box">
+                <img id="section-2-image-3" class="section-2-image" src="https://images01.nicepage.com/2f/c9/2fc963db2b8f554519a2b21cc60d75a3.jpeg">
+                <p id="section-2-text-3">San Francisco</p>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-6d65" x="0px" y="0px" viewBox="0 0 54.757 54.757" style="enable-background:new 0 0 54.757 54.757;" xml:space="preserve" class="section-2-icon"><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952  L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7  S31.416,26,27.557,26z"></path><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                <path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952  L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7  S31.416,26,27.557,26z"></path>
+            </div>
+        </div>
+
+        <div class="section-2-box-layout">
+            <div id="section-2-box-4" class="section-2-box">
+                <img id="section-2-image-4" class="section-2-image" src="https://images01.nicepage.com/ef/2a/ef2a13068362a84ceee3efa5eaab583b.jpeg">
+                <p id="section-2-text-4">Navagio, Greece</p>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-6d65" x="0px" y="0px" viewBox="0 0 54.757 54.757" style="enable-background:new 0 0 54.757 54.757;" xml:space="preserve" class="section-2-icon"><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952  L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7  S31.416,26,27.557,26z"></path><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                <path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952  L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7  S31.416,26,27.557,26z"></path>
+            </div>
+        </div>
+        <div class="section-2-box-layout">
+            <div id="section-2-box-5" class="section-2-box">
+                <img id="section-2-image-5" class="section-2-image" src="https://images01.nicepage.com/29/8d/298d0a5cd8893ec3a947289a7347c9f0.jpeg">
+                <p id="section-2-text-5">Ao Nang, Thailand</p>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-6d65" x="0px" y="0px" viewBox="0 0 54.757 54.757" style="enable-background:new 0 0 54.757 54.757;" xml:space="preserve" class="section-2-icon"><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952  L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7  S31.416,26,27.557,26z"></path><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                <path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952  L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7  S31.416,26,27.557,26z"></path>
+            </div>
+        </div>
+        <div class="section-2-box-layout">
+            <div id="section-2-box-6" class="section-2-box">
+                <img id="section-2-image-6" class="section-2-image" src="https://images01.nicepage.com/6e/8c/6e8c81f6a006352a225d163d742b148c.jpeg">
+                <p id="section-2-text-6">Phi Phi Islands, Thailand</p>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-6d65" x="0px" y="0px" viewBox="0 0 54.757 54.757" style="enable-background:new 0 0 54.757 54.757;" xml:space="preserve" class="section-2-icon"><path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952  L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7  S31.416,26,27.557,26z"></path><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                <path d="M40.94,5.617C37.318,1.995,32.502,0,27.38,0c-5.123,0-9.938,1.995-13.56,5.617c-6.703,6.702-7.536,19.312-1.804,26.952  L27.38,54.757L42.721,32.6C48.476,24.929,47.643,12.319,40.94,5.617z M27.557,26c-3.859,0-7-3.141-7-7s3.141-7,7-7s7,3.141,7,7  S31.416,26,27.557,26z"></path>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>
