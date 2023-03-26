@@ -803,10 +803,10 @@
         width: 325px;
     }
 }
-</style>
 
-<!--media query for section 4-->
-<style>
+
+/*media query for section 4*/
+
 @media (max-width: 1199px){
     #section-4-layout{
         padding-left: 35%;
