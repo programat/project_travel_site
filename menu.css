@@ -1,0 +1,123 @@
+.menu-button {
+    position: relative;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-bottom: 4px;
+    transition: transform 0.3s ease;
+}
+
+.menu-button-text{
+    display: flow;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    height: 96px;
+    line-height: 32px;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -210px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.menu-content h1 {
+    font-size: 24px;
+    font-family: Roboto,sans-serif;
+    line-height: 1.1;
+    font-weight: 480;
+    margin: 0 0 10px 0;
+}
+
+.menu-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.menu-content-description {
+    margin: 0 0 5px 0px;
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.menu-content-media{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-svg{
+    box-sizing: border-box;
+    fill: rgba(0, 0, 0, 0.71);
+    height: 18px;
+    letter-spacing: normal;
+    line-height: 0px;
+    pointer-events: auto;
+    text-align: left;
+    text-transform: none;
+    white-space: nowrap;
+    width: 18px;
+
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#menu-license{
+    font-weight: normal;
+    margin-top: 10px;
+    font-size: 8px;
+}
+
+.menu-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-content ul li {
+    margin: 0 0 5px 0px;
+    /*margin-bottom: 5px;*/
+    text-align: center;
+}
+
+.menu-content ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Roboto,sans-serif;
+    text-decoration: none;
+
+    color: #000;
+}
+
+.menu-toggle.close .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.close .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.close .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
